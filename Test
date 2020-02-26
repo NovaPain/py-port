@@ -1,0 +1,29 @@
+#this is a list
+print("This is my list!")
+letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+print(letters)
+
+#now i remove a letter
+print("I'll take out the letter g now.")
+letters.remove("g")
+print(letters)
+
+#now i add the letter k to the list
+print("Now I'm gonna add the letter k.")
+newletter = "k"
+letters.insert(9, newletter)
+print(letters)
+
+
+
+
+
+print("Breeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeak")
+for i in range(10):
+  if not i % 2 == 0:
+    print(i+1)
+
+
+print("Next")
+nums = list(range(5))
+print(nums[4])
